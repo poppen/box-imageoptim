@@ -1,6 +1,6 @@
 name: imageoptim
 version: 0.0.1
-inherits: wercker/box-ubuntu12.04-ruby2.0.0@1.0.0
+inherits: wercker/ubuntu12.04-ruby2.0.0@1.0.0
 type: service
 platform: ubuntu@12.04
 description: wercker box for imageOptim which integrates image optimisation tools
