@@ -1,0 +1,18 @@
+name: imageoptim
+version: 0.0.1
+inherits: wercker/box-ubuntu12.04-ruby2.0.0@1.0.0
+type: service
+platform: ubuntu@12.04
+description: wercker box for imageOptim which integrates image optimisation tools
+keywords:
+    - imageoptim
+packages:
+    - advpng
+    - gifsicle
+    - jhead
+    - jpegoptim
+    - jpegtran
+    - optipng
+    - pngcrush
+script: |
+    sudo apt-get install -y advancecomp gifsicle jhead jpegoptim libjpeg-progs optipng pngcrush
