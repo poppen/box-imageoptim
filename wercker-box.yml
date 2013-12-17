@@ -15,4 +15,5 @@ packages:
     - optipng
     - pngcrush
 script: |
+    sudo apt-get update
     sudo apt-get install -y advancecomp gifsicle jhead jpegoptim libjpeg-progs optipng pngcrush
