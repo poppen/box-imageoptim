@@ -11,6 +11,10 @@ The MIT License (MIT)
 Changelog
 ====
 
+0.0.2
+----
+- change to main box
+
 0.0.1
 ----
 - initial release
