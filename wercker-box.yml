@@ -1,11 +1,19 @@
 name: imageoptim
-version: 0.0.2
+version: 0.0.3
 inherits: wercker/ubuntu12.04-ruby2.0.0@1.0.0
 type: main
 platform: ubuntu@12.04
-description: wercker box for imageOptim which integrates image optimisation tools
+description: wercker box for optimizing images using multiple utilities (based on ImageOptim.app)
 keywords:
     - imageoptim
+    - ruby
+    - advpng
+    - gifsicle
+    - jhead
+    - jpegoptim
+    - jpegtran
+    - optipng
+    - pngcrush
 packages:
     - advpng
     - gifsicle
